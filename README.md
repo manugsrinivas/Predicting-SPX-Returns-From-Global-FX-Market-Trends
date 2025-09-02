@@ -3,7 +3,7 @@
 *A PCA-based regression analysis linking global currency markets to U.S. equity returns.*
 
 ## Overview  
-We investigate how **global FX market movements** relate to monthly returns in the **S&P 500 index**, asking whether systematic currency shifts (e.g., USD strength) embed predictive or explanatory power for U.S. equities. Using PCA, we distill high-dimensional FX data into latent factors and evaluate their relationships to SPX returns using both **Ordinary Least Squares (OLS)** and **Lasso regression** models.
+I investigated how **global FX market movements** relate to monthly returns in the **S&P 500 index**, asking whether systematic currency shifts (e.g., USD strength) embed predictive or explanatory power for U.S. equities using PCA to distill high-dimensional FX data into latent factors and evaluate their relationships to SPX returns using both **Ordinary Least Squares (OLS)** and **Lasso regression** models.
 
 ## Data  
 - **Source:** Manually collected monthly FX rates (`FXmonthly.csv`) and S&P 500 returns (`sp500.csv`)  
@@ -13,7 +13,7 @@ We investigate how **global FX market movements** relate to monthly returns in t
 - **Preprocessing:** FX prices converted to monthly returns, standardized, and decomposed using PCA  
 
 ## Methods  
-We implement a combination of **dimensionality reduction and regression modeling** to evaluate relationships between FX market trends and SPX returns.
+Implemented a combination of **dimensionality reduction and regression modeling** to evaluate relationships between FX market trends and SPX returns.
 
 - **Principal Component Analysis (PCA):**  
   Extracts latent, orthogonal factors summarizing major movements in the FX market. Loadings are analyzed to interpret the economic meaning of each component.  
@@ -29,7 +29,7 @@ We implement a combination of **dimensionality reduction and regression modeling
   - PC1 alone explains ~30% of FX market variance  
   - First 3 PCs explain ~60% of total variance  
 - **OLS Findings:**  
-  - PC1 often positively associated with SPX returns — interpreted as a broad USD weakening signal aligning with equity gains  
+  - PC1 is often positively associated with SPX returns — interpreted as a broad USD weakening signal aligning with equity gains  
   - PC2, PC3 capture regional divergence (e.g., EM vs developed markets)  
 - **Lasso Findings:**  
   - Shrinks coefficients on minor PCs to zero  
@@ -39,7 +39,7 @@ We implement a combination of **dimensionality reduction and regression modeling
   - PC2 shows divergence between European and Asian currencies  
 - **Prediction Fit:**  
   - R² modest (reflecting macro noise), but stable across methods  
-  - Lasso improves generalizability in small-n setting  
+  - Lasso improves generalizability in a small-n setting  
 
 ## Interpreting the models  
 - **OLS Regression:**  
