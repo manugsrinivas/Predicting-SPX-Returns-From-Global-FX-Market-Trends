@@ -1,4 +1,4 @@
-# ANALYSIS NARRATIVE: S&P 500 Returns Prediction Using FX Market Trends
+#S&P 500 Returns Prediction Using FX Market Trends
 
 --
 
