@@ -3,12 +3,12 @@
 --
 
 ### Executive Summary:
-"I found that movements in global currency markets can predict about 15-20% of monthly S&P 500 returns, with my models correctly identifying up vs. down months 55-58% of the time. Emerging market currencies (Mexican peso, Brazilian real) and safe-haven currencies (Japanese yen, Swiss franc) are the most informative. This relationship reflects global risk sentiment—when investors feel confident, they buy emerging market currencies and stocks simultaneously; when worried, they flee to safe-havens and sell stocks. While far from perfect prediction, my results suggest currency markets provide a useful early-warning system for equity investors."
+I found that movements in global currency markets can predict about 15-20% of monthly S&P 500 returns, with my models correctly identifying up vs. down months 55-58% of the time. Emerging market currencies (Mexican peso, Brazilian real) and safe-haven currencies (Japanese yen, Swiss franc) are the most informative. This relationship reflects global risk sentiment—when investors feel confident, they buy emerging market currencies and stocks simultaneously; when worried, they flee to safe havens and sell stocks. While far from a perfect prediction, my results suggest that currency markets provide a useful early-warning system for equity investors.
 
 
 ## Purpose and Context
 
-In this analysis, I investigate whether movements in global foreign exchange (FX) markets can predict monthly returns of the S&P 500 index. The fundamental question I'm exploring is: **Do currency fluctuations contain information about future U.S. stock market performance?** This relationship is economically intuitive—currency movements reflect international capital flows, trade dynamics, and risk sentiment, all of which could influence U.S. equity markets. I use approximately 25 years of monthly data (2000-2026) covering 23 major currency pairs and the S&P 500 to test this hypothesis using three different machine learning approaches.
+In this project, I investigate whether movements in global foreign exchange (FX) markets can predict monthly returns of the S&P 500 index. The fundamental question I'm exploring is: **Do currency fluctuations contain information about future U.S. stock market performance?** This relationship is economically intuitive—currency movements reflect international capital flows, trade dynamics, and risk sentiment, all of which could influence U.S. equity markets. I use approximately 25 years of monthly data (2000-2026) covering 23 major currency pairs and the S&P 500 to test this hypothesis using three different machine learning approaches.
 
 ---
 
